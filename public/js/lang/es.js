@@ -702,8 +702,7 @@ const translations = {
     "Esta alerta ha sido desactivada. Usted puede activarla haciendo click en la caja 'Activa' y guardando esta regla de alerta",
   export_email_sent:
     'un correo electrónico con el archivo Excel ha sido enviado',
-  export_file_saved:
-    'el archivo Excel ha sido guardado en su carpeta Descargas',
+  excel_file_saved: 'el archivo Excel ha sido guardado en su carpeta Descargas',
   Updated_at: 'Actualizado en',
   Not_yet_saved: 'No guardado aun',
   add_own_device: 'Agregar su propio dispositivo',
@@ -880,8 +879,7 @@ const translations = {
   Block: 'Block',
   Nr_of_match_props: 'Number of identical values per match',
   no_admin: 'You must be an admin to view this page',
-  next_week: 'Next week',
-  prev_week: 'Previous week',
+
   import_block_data_short: 'Import block data',
   no_flashlog_data: 'No log data',
   no_flashlog_file: 'No log file',
@@ -916,6 +914,10 @@ const translations = {
   Export_as_csv: 'Export as .csv file',
   Export_full_json: 'Export full JSON',
   Export_full_csv: 'Export full .csv',
+  Export_file_being_saved:
+    'Export file will be saved in your Downloads folder - wait a moment please',
+  no_data_deleted_because_no_matches_found:
+    'No data deleted because no matches were found',
 
   Now: 'Now',
   input_only_possible_when_date_present:
@@ -974,13 +976,22 @@ const translations = {
     'For which hive would you like to perform the action? Select one hive.',
   Select_hivetag_action: 'Select an action',
   Select_hivetag_action_exp:
-    'Which action would you plike to perform, after scanning the QR code?',
+    'Which action would you like to perform, after scanning the QR code?',
   Hivetag_hive_in_overview: 'Show hive in hives overview',
   Hivetag_new_inspection: 'Create a new inspection',
   Hivetag_edit_hive: 'Edit hive configuration',
   Hivetag_view_inspections: 'View inspections',
   No_hivetags_left:
     'All hive tags are currently in use. Remove an existing hive tag in order to add a new one, or modify it.',
+
+  View_alert_confirm: 'Would you like to view the alert "',
+
+  /* iOS device prompt for adding BEEP app to home screen */
+  pwa_title: 'Use BEEP as an app?',
+  pwa_body:
+    'Add BEEP to your home screen to use it as a web app and in full screen. You will stay signed in after signing in once.',
+  pwa_share_button_label: '1. Tap the share icon in the menu bar below.',
+  pwa_addhome_button_label: "2. Tap 'Add to home'.",
 }
 
 export default translations

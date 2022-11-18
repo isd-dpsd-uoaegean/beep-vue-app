@@ -688,7 +688,7 @@ const translations = {
   alertrule_not_active:
     'Αυτή η ειδοποίηση έχει απενεργοποιηθεί. Μπορείτε να το ενεργοποιήσετε επιλέγοντας το πλαίσιο «Ενεργό» και αποθηκεύοντας αυτόν τον κανόνα ειδοποίησης.',
   export_email_sent: 'Έχει σταλεί email με αρχείο Excel',
-  export_file_saved: 'Το αρχείο Excel έχει αποθηκευτεί στον φάκελο "Λήψεις".',
+  excel_file_saved: 'Το αρχείο Excel έχει αποθηκευτεί στον φάκελο "Λήψεις".',
   Updated_at: 'Ενημερώθηκε στις',
   Not_yet_saved: 'Δεν έχει αποθηκευτεί ακόμη',
   add_own_device: 'Προσθήκη δικής σας συσκευής',
@@ -868,8 +868,6 @@ const translations = {
   Block: 'Μπλοκ',
   Nr_of_match_props: 'Αριθμός πανομοιότυπων τιμών ανά αντιστοίχιση',
   no_admin: 'Πρέπει να είστε διαχειριστής για να δείτε αυτήν τη σελίδα',
-  next_week: 'Επόμενη εβδομάδα',
-  prev_week: 'Προηγούμενη εβδομάδα',
   import_block_data_short: 'Εισαγωγή δεδομένων μπλοκ',
   no_flashlog_data: 'Δεν υπάρχουν δεδομένα καταγραφής',
   no_flashlog_file: 'Δεν υπάρχει αρχείο καταγραφής',
@@ -904,6 +902,10 @@ const translations = {
   Export_as_csv: 'Εξαγωγή ως .csv αρχείο',
   Export_full_json: 'Εξαγωγή πλήρες JSON',
   Export_full_csv: 'Εξαγωγή πλήρες .csv',
+  Export_file_being_saved:
+    'Export file will be saved in your Downloads folder - wait a moment please',
+  no_data_deleted_because_no_matches_found:
+    'No data deleted because no matches were found',
 
   Now: 'Τώρα',
   input_only_possible_when_date_present:
@@ -962,13 +964,22 @@ const translations = {
     'For which hive would you like to perform the action? Select one hive.',
   Select_hivetag_action: 'Select an action',
   Select_hivetag_action_exp:
-    'Which action would you plike to perform, after scanning the QR code?',
+    'Which action would you like to perform, after scanning the QR code?',
   Hivetag_hive_in_overview: 'Show hive in hives overview',
   Hivetag_new_inspection: 'Create a new inspection',
   Hivetag_edit_hive: 'Edit hive configuration',
   Hivetag_view_inspections: 'View inspections',
   No_hivetags_left:
     'All hive tags are currently in use. Remove an existing hive tag in order to add a new one, or modify it.',
+
+  View_alert_confirm: 'Would you like to view the alert "',
+
+  /* iOS device prompt for adding BEEP app to home screen */
+  pwa_title: 'Use BEEP as an app?',
+  pwa_body:
+    'Add BEEP to your home screen to use it as a web app and in full screen. You will stay signed in after signing in once.',
+  pwa_share_button_label: '1. Tap the share icon in the menu bar below.',
+  pwa_addhome_button_label: "2. Tap 'Add to home'.",
 }
 
 export default translations

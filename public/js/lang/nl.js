@@ -643,7 +643,7 @@ const translations = {
   alertrule_not_active:
     "Deze notificatie is uitgeschakeld. Je kunt deze weer activeren door 'Actief' aan te vinken en de notificatie-instelling op te slaan.",
   export_email_sent: 'E-mail met Excel bestand is verzonden',
-  export_file_saved: 'Excel bestand is opgeslagen in je Downloads map',
+  excel_file_saved: 'Excel bestand is opgeslagen in je Downloads map',
   Updated_at: 'Aangepast op',
   Not_yet_saved: 'Nog niet opgeslagen',
   add_own_device: 'Voeg eigen meetsysteem toe',
@@ -808,8 +808,6 @@ const translations = {
   Block: 'Blok',
   Nr_of_match_props: 'Aantal gelijke waardes per match',
   no_admin: 'Je moet beheerder zijn om deze pagina te kunnen bekijken',
-  next_week: 'Volgende week',
-  prev_week: 'Vorige week',
   import_block_data_short: 'Importeer blok data',
   no_flashlog_data: 'Geen log data',
   no_flashlog_file: 'Geen logbestand',
@@ -845,6 +843,10 @@ const translations = {
   Export_as_csv: 'Exporteer als .csv bestand',
   Export_full_json: 'Exporteer volledige JSON',
   Export_full_csv: 'Exporteer volledige .csv',
+  Export_file_being_saved:
+    'Export bestand wordt opgeslagen in je Downloads map - een moment geduld a.u.b.',
+  no_data_deleted_because_no_matches_found:
+    'Geen data verwijderd omdat er geen matches gevonden zijn',
 
   Now: 'Nu',
   input_only_possible_when_date_present:
@@ -910,6 +912,15 @@ const translations = {
   Hivetag_view_inspections: 'Bekijk inspecties',
   No_hivetags_left:
     'Alle hive tags zijn momenteel in gebruik. Verwijder een bestaande hive tag om een nieuwe toe te kunnen voegen, of pas deze aan.',
+
+  View_alert_confirm: 'Wil je de notificatie bekijken "',
+
+  /* iOS device prompt for adding BEEP app to home screen */
+  pwa_title: 'BEEP als app gebruiken?',
+  pwa_body:
+    'Voeg BEEP toe aan je beginscherm om het als web app en op volledig scherm te gebruiken. Je blijft dan ingelogd na de eerste keer inloggen.',
+  pwa_share_button_label: '1. Tik op het deel-icoon in de menubalk onderin.',
+  pwa_addhome_button_label: "2. Tik op 'Zet op beginscherm'",
 }
 
 export default translations
